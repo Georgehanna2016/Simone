@@ -1,0 +1,131 @@
+:root{
+    font-family: 'Source Sans Pro', sans-serif;
+    --main :  #20C997  ;
+    --bg2 : #F8F9FA ;
+}
+.mybg{
+    background-color: var(--bg2);
+}
+.mainc {
+    color : var(--main);
+}
+.bgmain{
+    background-color: var(--main);
+}
+#HOME{
+    background-image: url(../Img/intro-bg.jpg);
+    background-size: 100% 100% ;
+
+
+}
+.title1 h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.linav a:hover {
+    color: var(--main) !important;
+}
+.mybtn:hover{
+    background-color: var(--main);
+
+}
+.title2{
+    position: relative;
+
+}
+.title2 h2 {
+font-size: 8.25rem ;
+font-weight: 600 ;
+color: rgba(148, 137, 137, 0.3);
+}
+.title2 h3{
+    font-weight: 600 ;
+    font-size: 2.25rem ;
+}
+.title2 h3::after{
+    content: "";
+    height: 3px;
+    width: 57%;
+    background-color: #20C997;
+    position: absolute;
+    top: 108%;
+    left: 20%;
+}
+.icon{
+    width: 100px ;
+    height: 70px ;
+}
+.progress{
+    height: 10px;
+}
+#Work li a:hover {
+    color: var(--main) !important;
+
+}
+.layerwork{
+    transition: all .5s;
+}
+#Work .workitm:hover .layerwork {
+    opacity: 1 !important;
+
+}
+footer li a:hover {
+    color: var(--main) !important;
+
+}
+.phpost :nth-child( 1 ) {
+top: 0;
+left: 0;
+
+}
+.phpost :nth-child( 2 ) {
+    left: 33.33%;
+    top: 0%;
+
+}
+.phpost :nth-child( 3) {
+    left: 66.66%;
+    top: 0%;
+
+
+}
+.phpost :nth-child( 4) {
+    top: 297.17px ;
+    left: 0;
+
+
+}
+.phpost :nth-child( 5) {
+    top: 715.17px ;
+    left: 33.33%;
+
+
+}
+.phpost :nth-child( 6) {
+    top: 297.17px ;
+
+    left: 66.66%;
+
+
+}
+.phpost :nth-child( 7) {
+left: 66.66%;
+top: 594.3px ;
+
+}
+.fixhight{
+
+    height: 1170px !important;
+}
+
+
+.layerph{
+    transition: 1s all;
+    
+
+}
+
+.child:hover .layerph { 
+    opacity: 1 !important;
+    
+}
